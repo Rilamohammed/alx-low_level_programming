@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
 *
@@ -6,7 +6,7 @@
 *
 *Descrription: single base 10 numbers
 *
-*Return: Always 0 (success)
+*Return: Always 0 (Success)
 *
 */
 

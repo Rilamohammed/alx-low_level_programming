@@ -1,20 +1,23 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
-*main - Enty point
-*
-*Description: Displays alphabets
-*
-*Return: Always 0 (Success)
-*/
+ * main - Prints the alphabet without q and e.
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
-	char alphabets[24] = "abcdfghijklmnoprstuvwxyz";
 	int i;
-	for (i = 0; i < 24; i++)
+
+	for (i = 97; i < 123; i++)
 	{
-		putchar(alphabets[i]);
+		if (i != 101 && i != 113)
+		{
+			putchar(i);
+		}
 	}
 	putchar('\n');
 	return (0);

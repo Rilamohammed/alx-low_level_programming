@@ -1,21 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Enty point                                                
- *                                                                 
- * Description: Displays alphabets                                  
- *                                                                 
+ * main - prints the lowercase alphabet in reverse,
+ * followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char alph;
+	char ch;
 
-	for (alph = 'z'; alph >= 'a'; alph--)
+	for (ch = 'z'; ch >= 'a'; ch--)
 	{
-		putchar(alph);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
 }
-

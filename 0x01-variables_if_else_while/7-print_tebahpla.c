@@ -9,12 +9,13 @@
  */
 int main(void)
 {
-        char alph;
+	char alph;
 
-        for (alph = 'z'; alph >= 'a'; alph--)
+	for (alph = 'z'; alph >= 'a'; alph--)
 	{
-                putchar(alph);
+		putchar(alph);
 	}
 	putchar('\n');
 	return (0);
 }
+

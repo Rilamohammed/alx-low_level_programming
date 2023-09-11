@@ -1,30 +1,20 @@
 #include <stdio.h>
 
 /**
-*
-*main - Enty point 
-*
-*Description: Alphabets in small and capital
-*
-*Return: ALways 0 (success)
-*/
+ * main - Prints the alphabet.
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
-	char alphabets[26] = "abcdefghijklmnopqrstuvwxyz";
-	char alph[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	
-	int i, j;
-	
-	for (i = 0; i < 26; i++)
+char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i;
+
+	for (i = 0; i < 52; i++)
 	{
-		putchar(alphabets[i]);
+		putchar(alp[i]);
 	}
-	putchar('\n');	
-	
-	for (j = 0; j < 26; j++)
-	{
-	putchar(alph[j]);
-	}
-return (0);
+	putchar('\n');
+	return (0);
 }

@@ -1,16 +1,21 @@
 #include "main.h"
-/*
- * *memset(char *s, char b, unsigned int n) - Mems function
-*/
 
-char *memset(char *s, char b, unsigned int n);
+/**
+ * _memset - fills s with constant b value n times
+ * @s: pointer
+ * @b: constant value
+ * @n: maximum number of filling
+ * Return: s
+ */
+
+char *_memset(char *s, char b, unsigned int n)
 {
-unsigned int x;
+	unsigned int inc = 0; /**increase untill n reach 0*/
 
-for (x = 0; n > 0; x++, n--)
-{
-s[x] = b;
-}
-
-return (s);
+	for (; n > 0; inc++)
+	{
+		s[inc] = b;
+		n--;
+	}
+	return (s);
 }

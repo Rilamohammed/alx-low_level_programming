@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/**
+/**                                                                                 
  * main - array of chars
  * @argc: the char to be filled
  * @argv: the size of the array
- *
  * Return: The filled array
  */
 
@@ -20,11 +19,12 @@ p = p *atoi(argv[i]);
 }
 {
 printf("%d\n", p);
+return (0);
 }
 }
 else
 {
 printf("Error\n");
-}
 return (1);
+}
 }

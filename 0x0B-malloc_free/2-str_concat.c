@@ -6,7 +6,6 @@
  * str_concat - duplicated string
  * @s1: the string to duplicate
  * @s2: Second string
- *
  * Return: the string duplicated
  */
 
@@ -38,7 +37,7 @@ j = 0;
 while (k < l)
 {
 if (k <= i)
-s[k] + s1[k];
+s[k] = s1[k];
 
 if (k >= i)
 {
